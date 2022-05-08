@@ -6,4 +6,5 @@ COPY . .
 EXPOSE 3000
 # RUN chown -R node /usr/src/app
 # USER node
-RUN init.sh
+RUN chmod +x wait-for-it.sh
+CMD [ "./wait-for-it.sh", "db:5432", "--strict", "--timeout=300", "--"]

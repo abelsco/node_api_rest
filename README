@@ -1,0 +1,17 @@
+# API REST COM NODE
+
+API com node.js e Postegres
+
+## Executando
+
+Para executar o projeto
+
+      docker-compose up
+
+## Tecnologias utilizadas
+
+- Node.js 18
+- Express 4
+- Sequelize 6
+- Docker 20
+- docker-compose 1.25
