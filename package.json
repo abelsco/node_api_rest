@@ -1,0 +1,12 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "Projeto exemplo de uma API REST com nodejs e postgres",
+  "main": "index.js",
+  "author": "Abel Menezes <abelsmenezes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  }
+}
