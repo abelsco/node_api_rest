@@ -131,3 +131,6 @@ dist
 
 # visual studio
 .vscode
+
+# Especificações privadas
+.README.MD
