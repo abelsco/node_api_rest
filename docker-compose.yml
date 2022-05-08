@@ -3,7 +3,7 @@ version: "3.4"
 services:
   api:
     image: apirest:api
-    command: yarn run dev
+    command: sh init.sh
     build:
       context: .
       dockerfile: ./Dockerfile
